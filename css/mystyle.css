@@ -1,0 +1,123 @@
+/*RightSide Image*/
+/* Container holding the image and the text */
+.con {
+    position: relative;
+    text-align: center;
+    color: white;
+	
+}
+
+/* Bottom left text */
+.bottom-left {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+}
+
+/* Top left text */
+.top-left {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+}
+
+/* Top right text */
+.top-right {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+}
+
+/* Bottom right text */
+.bottom-right {
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+}
+
+/* Centered text */
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-70%, -50%);
+}
+
+/*blur*/
+.blur{
+	opacity:0.7;
+}
+
+
+.shadow{
+    box-shadow: 0 2px 8px 7px #8f8f8f;
+}
+
+/*Register-login Modal */
+
+.reglog.modal { overflow: auto !important; }
+.q
+{
+	padding-top:30px;
+}
+.reglog:input.rounded 
+{
+	text-align:center;
+ 	border-radius: 2rem;
+}
+.reglog.form-group
+{
+	text-align:center;
+	font: italic 25px/10px Georgia, serif;
+}
+.reglog.modal-body
+{
+	
+	text-align:center;
+	margin-left:-10px;
+	margin-top:20px;
+	margin-bottom:50px;
+	margin-right:150px;
+}
+.reglog.button1 
+{
+	margin-top:10px;
+	font-size:24px;
+	margin-left:10px;
+	margin-bottom:10px;
+	border-radius: 12px;
+}
+
+.reglog.modal-title
+{
+	text-align:center;
+	font: italic 36px Georgia, serif;
+}
+
+.reglog.modal-content
+{
+	background-image:url("../images/fb3.jpg");
+	background-repeat: no-repeat;	
+	background-size:cover;
+}
+.reglog:input[type="radio"] {
+  
+    transform: scale(1.5);
+}
+
+.reglog.radio-button
+{
+	margin-left:-5px;
+	margin-bottom:30px;
+	margin-top:-10px;
+	font: italic 24px Georgia, serif;
+}
+#radio1
+{
+	margin-left:-15px;
+	
+}
+#radio2
+{
+	margin-left:25px;
+}

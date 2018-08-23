@@ -1,0 +1,22 @@
+.rounded,.button1{
+	margin-top:10px;
+	border-radius:25px;
+	padding:5px;
+	outline:none;
+	width:50%;
+}
+
+.button1{
+	width:20%;
+}
+
+.img1{
+	background:url('../images/fb1.jpg') no-repeat;
+}
+
+.round{
+	border-radius:25px;
+	outline:none;
+
+}
+

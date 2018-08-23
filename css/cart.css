@@ -1,0 +1,102 @@
+<!-- Inside Main 1st Container -->
+.common{
+	background:white;
+	padding:10px;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+  margin-top:5px;
+  padding:10px;
+}
+
+
+<!-- Carousel -->
+.carousel-inner{
+  width:100%;
+  max-height: 200px !important;
+}
+
+.cardcar {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+  margin-top:8px;
+}
+
+.cardcar2 {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	text-align: center;
+	margin-top:60px;
+	padding:15px;
+	border-top-left-radius: 20px;
+}
+
+.title{
+	font-size:30px;
+	cursor:pointer;
+	background: #a5a6a7;
+    background-image: linear-gradient(97deg,#64ecba,#008de7);
+	color:white;
+	margin-top:-12px;
+	width:50%;
+	border-bottom-right-radius: 25px;
+	border-top-left-radius: 20px;
+}
+
+.title2{
+	font-size:30px;
+	cursor:pointer;
+	background: #a5a6a7;
+    background-image: linear-gradient(97deg,#64ecba,#008de7);
+	color:white;
+	margin-top:-12px;
+	width:50%;
+	border-bottom-right-radius: 25px;
+	border-top-left-radius: 20px;
+}
+
+
+.img-hover button {
+    -webkit-transition: all .3s ease; /* Safari and Chrome */
+  	-moz-transition: all .3s ease; /* Firefox */
+  	-o-transition: all .3s ease; /* IE 9 */
+  	-ms-transition: all .3s ease; /* Opera */
+  	transition: all .3s ease;
+}
+
+.img-hover img {
+    -webkit-transition: all .3s ease; /* Safari and Chrome */
+  	-moz-transition: all .3s ease; /* Firefox */
+  	-o-transition: all .3s ease; /* IE 9 */
+  	-ms-transition: all .3s ease; /* Opera */
+  	transition: all .3s ease;
+}
+
+.img-hover button:hover {
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-transform:translateZ(0) scale(1.20); /* Safari and Chrome */
+    -moz-transform:scale(1.20); /* Firefox */
+    -ms-transform:scale(1.20); /* IE 9 */
+    -o-transform:translatZ(0) scale(1.20); /* Opera */
+    transform:translatZ(0) scale(1.20);
+}
+
+.img-hover img:hover {
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-transform:translateZ(0) scale(1.20); /* Safari and Chrome */
+    -moz-transform:scale(1.20); /* Firefox */
+    -ms-transform:scale(1.20); /* IE 9 */
+    -o-transform:translatZ(0) scale(1.20); /* Opera */
+    transform:translatZ(0) scale(1.20);
+}
+  
+  
+.grayscale {
+  -webkit-filter: brightness(1.10) grayscale(100%) contrast(90%);
+  -moz-filter: brightness(1.10) grayscale(100%) contrast(90%);
+  filter: brightness(1.10) grayscale(100%); 
+}
+
+

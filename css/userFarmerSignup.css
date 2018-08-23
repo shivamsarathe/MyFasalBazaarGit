@@ -1,0 +1,17 @@
+.control{
+	border-radius:25px;
+	width:50%;
+}
+
+.align{
+	text-align:center;
+}
+
+.btnheight{
+	height:50px;
+	width:100%;
+}
+
+.mtop{
+	margin-top:20px;
+}
